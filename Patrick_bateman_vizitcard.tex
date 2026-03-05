@@ -1,0 +1,55 @@
+\documentclass[9pt,a4paper]{memoir}
+
+\usepackage{xcolor}
+
+
+
+% US Stock size
+\setstocksize{2in}{3.5in}
+\setpagecc{2in}{3.5in}{*}
+\settypeblocksize{1.75in}{3.25in}{*}
+\setulmargins{5mm}{*}{*}
+\setlrmargins{3mm}{*}{*}
+
+\setheadfoot{0.1pt}{0.1pt}
+\setheaderspaces{1pt}{*}{*}
+
+\usepackage{fontspec}
+\setmainfont{Garamond Classico SC Regular.ttf} 
+
+\checkandfixthelayout[fixed]
+
+\pagestyle{empty}
+
+
+\begin{document}
+
+\begin{raggedleft}
+{\fontseries{l}\selectfont\addfontfeatures{FakeStretch=0.92}\normalsize{212 555 6312}}
+\end{raggedleft}
+
+\begin{raggedright}
+\vspace{-12pt}
+{\fontseries{l}\selectfont\addfontfeatures{FakeStretch=0.92}\hfill\large{ Pierce \& Pierce \& \\ }}
+\vspace{-3pt}
+\hfill\scriptsize{Mergers and Aquisitions}
+\end{raggedright}
+
+
+\begin{center}
+    \vspace{22pt}
+    {\fontseries{l}\selectfont\addfontfeatures{FakeStretch=0.92}\large{Patrick BATEMAN}}
+\end{center}
+
+\begin{center}
+    \vspace{-5pt}
+    {\fontseries{l}\selectfont\addfontfeatures{FakeStretch=0.92}\large{Vice President}}
+\end{center}
+
+\begin{center}
+\vspace{27pt}
+{\fontseries{l}\selectfont\addfontfeatures{FakeStretch=0.92}\small{358 Exchange Place New York, N.Y. 10099 fax 212 555 6390 telex io 4534}}
+\end{center}
+
+
+\end{document}
